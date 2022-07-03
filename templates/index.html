@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title >Comment Classifier</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+<center>
+    <h1>STOP CYBERBULLYING</h1>
+    <form action="./predict" method="post">
+        <h3><i>Comment Classifier</i></h3>
+        <label for="textbox"></label>
+        <h6>Paste or Enter the comment in below text box and click on the button detect</h6>
+        <textarea id="textbox" name="textbox" rows="6" cols="'50" placeholder="Paste or Enter your Comment here....."></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Detect">
+        <br>
+
+        <p>Prediction :{{pred}}</p>
+
+    </form>
+</center>
+
+</body>
+
+</html>
